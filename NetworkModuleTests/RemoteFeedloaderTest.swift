@@ -8,12 +8,14 @@
 import Foundation
 import XCTest
 class RemoteFeedloader {
+    let url: URL
     let client: HTTPClient
-    init(client: HTTPClient) {
+    init(url: URL,client: HTTPClient) {
+        self.url = url
         self.client = client
     }
     func load(){
-        client.get(from: URL(string: "https://a-url.com")!)
+        client.get(from: url)
     }
 
 }
@@ -32,16 +34,16 @@ class RemoteFeedloaderTest : XCTestCase {
     
     func test_init_doesnotrequestedFromUrl(){
         let client = HttpClientSub()
-   
-        _ = RemoteFeedloader(client: client)
+        let url = URL(string: "https://a-url.com")!
+        _ = RemoteFeedloader(url: url, client: client)
         
         XCTAssertNil(client.requestedUrl)
     }
     func test_Load_requestDataFromUrl(){
         let client = HttpClientSub()
-        
-        let sut = RemoteFeedloader(client: client)
+        let url = URL(string: "https://a-given-url.com")!
+        let sut = RemoteFeedloader(url: url, client: client)
         sut.load()
-        XCTAssertNotNil(client.requestedUrl)
+        XCTAssertEqual(client.requestedUrl,url)
     }
 }
