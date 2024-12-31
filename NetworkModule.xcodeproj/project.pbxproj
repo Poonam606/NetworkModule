@@ -18,6 +18,7 @@
 		68B3109C2D23F6CC002E7F5B /* NetworkModuleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B3109B2D23F6CC002E7F5B /* NetworkModuleUITests.swift */; };
 		68B3109E2D23F6CC002E7F5B /* NetworkModuleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B3109D2D23F6CC002E7F5B /* NetworkModuleUITestsLaunchTests.swift */; };
 		68B310AB2D23F77A002E7F5B /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B310AA2D23F77A002E7F5B /* FeedItem.swift */; };
+		68B310AD2D23FCC5002E7F5B /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B310AC2D23FCC5002E7F5B /* FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		68B3109B2D23F6CC002E7F5B /* NetworkModuleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModuleUITests.swift; sourceTree = "<group>"; };
 		68B3109D2D23F6CC002E7F5B /* NetworkModuleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModuleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		68B310AA2D23F77A002E7F5B /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		68B310AC2D23FCC5002E7F5B /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		68B310762D23F6CA002E7F5B /* NetworkModule */ = {
 			isa = PBXGroup;
 			children = (
+				68B310AA2D23F77A002E7F5B /* FeedItem.swift */,
 				68B310772D23F6CA002E7F5B /* AppDelegate.swift */,
 				68B310792D23F6CA002E7F5B /* SceneDelegate.swift */,
 				68B3107B2D23F6CA002E7F5B /* ViewController.swift */,
@@ -111,7 +114,7 @@
 				68B310852D23F6CB002E7F5B /* LaunchScreen.storyboard */,
 				68B310882D23F6CB002E7F5B /* Info.plist */,
 				68B310802D23F6CA002E7F5B /* NetworkModule.xcdatamodeld */,
-				68B310AA2D23F77A002E7F5B /* FeedItem.swift */,
+				68B310AC2D23FCC5002E7F5B /* FeedLoader.swift */,
 			);
 			path = NetworkModule;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68B310AD2D23FCC5002E7F5B /* FeedLoader.swift in Sources */,
 				68B3107C2D23F6CA002E7F5B /* ViewController.swift in Sources */,
 				68B310782D23F6CA002E7F5B /* AppDelegate.swift in Sources */,
 				68B310822D23F6CA002E7F5B /* NetworkModule.xcdatamodeld in Sources */,
