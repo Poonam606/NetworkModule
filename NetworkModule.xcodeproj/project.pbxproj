@@ -17,6 +17,7 @@
 		68B310922D23F6CB002E7F5B /* NetworkModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B310912D23F6CB002E7F5B /* NetworkModuleTests.swift */; };
 		68B3109C2D23F6CC002E7F5B /* NetworkModuleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B3109B2D23F6CC002E7F5B /* NetworkModuleUITests.swift */; };
 		68B3109E2D23F6CC002E7F5B /* NetworkModuleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B3109D2D23F6CC002E7F5B /* NetworkModuleUITestsLaunchTests.swift */; };
+		68B310AB2D23F77A002E7F5B /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B310AA2D23F77A002E7F5B /* FeedItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		68B310972D23F6CC002E7F5B /* NetworkModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B3109B2D23F6CC002E7F5B /* NetworkModuleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModuleUITests.swift; sourceTree = "<group>"; };
 		68B3109D2D23F6CC002E7F5B /* NetworkModuleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModuleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		68B310AA2D23F77A002E7F5B /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				68B310852D23F6CB002E7F5B /* LaunchScreen.storyboard */,
 				68B310882D23F6CB002E7F5B /* Info.plist */,
 				68B310802D23F6CA002E7F5B /* NetworkModule.xcdatamodeld */,
+				68B310AA2D23F77A002E7F5B /* FeedItem.swift */,
 			);
 			path = NetworkModule;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				68B3107C2D23F6CA002E7F5B /* ViewController.swift in Sources */,
 				68B310782D23F6CA002E7F5B /* AppDelegate.swift in Sources */,
 				68B310822D23F6CA002E7F5B /* NetworkModule.xcdatamodeld in Sources */,
+				68B310AB2D23F77A002E7F5B /* FeedItem.swift in Sources */,
 				68B3107A2D23F6CA002E7F5B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
